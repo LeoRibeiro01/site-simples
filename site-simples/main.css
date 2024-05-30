@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px; /* Ajusta o espaçamento entre o título e o botão */
+}
+
+/* Estilos para o fundo verde */
+.green-background {
+    background-color: green;
+    color: black;
+}
+
+.green-background h1 {
+    color: black;
+}
+
+.green-background button {
+    background-color: black;
+    color: green;
+}
+
+/* Estilos para o fundo preto */
+.black-background {
+    background-color: black;
+    color: green;
+}
+
+.black-background h1 {
+    color: green;
+}
+
+.black-background button {
+    background-color: green;
+    color: black;
+}
